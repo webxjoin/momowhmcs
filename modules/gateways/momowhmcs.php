@@ -185,7 +185,7 @@ function momowhmcs_link($params)
     $moduleName = $params['paymentmethod'];
     $whmcsVersion = $params['whmcsVersion'];
 
-    $url = 'https://'.YOUR_DOMAIN_NAME.'/momowhmcs/index.php';
+    $url = 'https://'domain.kiawu.com'/momowhmcs/index.php';
 
     $postfields = array();
     $postfields['username'] = $username;
